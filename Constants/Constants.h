@@ -11,4 +11,5 @@
 
 @interface Constants : NSObject
 #define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+-(BOOL)isIphone;
 @end
